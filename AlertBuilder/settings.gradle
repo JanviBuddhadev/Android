@@ -1,0 +1,2 @@
+rootProject.name='Alert Builder'
+include ':app'
