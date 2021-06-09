@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="402dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:text="               Brain Trainer"
+        android:textColor="#061E9F"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="347dp"
+        android:layout_height="333dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="150dp"
+        android:foregroundGravity="center"
+        app:columnCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:rowCount="2">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="88dp"
+            android:layout_height="64dp"
+            android:background="@drawable/maths"
+            android:onClick="maths"
+            android:text="Maths"
+            android:textAllCaps="true"
+            android:textColor="#082B71"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="88dp"
+            android:layout_height="64dp"
+            android:background="@drawable/science"
+            android:text="Science"
+            android:textColor="#082B71"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="88dp"
+            android:layout_height="64dp"
+            android:background="@drawable/writing"
+            android:text="Writing"
+            android:textColor="#082B71"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="88dp"
+            android:layout_height="64dp"
+            android:background="@drawable/logic2"
+            android:text="Logic Building"
+            android:textColor="#082B71"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="1"
+            app:layout_rowWeight="1" />
+
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
