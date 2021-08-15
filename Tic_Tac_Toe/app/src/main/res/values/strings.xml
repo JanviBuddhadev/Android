@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="welcome">Welcome to tic tac toe</string>
+    <string name="button1_text">With Computer</string>
+    <string name="button2_text">Two Player</string>
+    <string name="replay">Replay</string>
+    <string name="restart">Restart</string>
+</resources>
